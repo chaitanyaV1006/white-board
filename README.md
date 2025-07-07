@@ -20,9 +20,9 @@ A real-time, collaborative whiteboard application that enables multiple users to
 
 ## 📸 Screenshots
 
-| Signup Page | Whiteboard Canvas | Profile Dashboard |
+| Login Page | Whiteboard Canvas | Profile Dashboard |
 |-------------|-------------------|-------------------|
-| ![signup](screens/signup.png) | ![canvas](screens/canvas.png) | ![dashboard](screens/dashboard.png) |
+| ![signup](LoginPage.png) | ![canvas](canvas.png) | ![dashboard](ProfilePage.png) |
 
 ---
 
