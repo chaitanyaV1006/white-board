@@ -3,22 +3,22 @@
 
 A real-time, collaborative whiteboard application that enables multiple users to draw, sketch, and share ideas visually on a shared canvas — all powered by **React**, **Node.js**, **MongoDB**, and **Socket.IO**.
 
-> ✨ Built with real-time WebSocket communication, JWT authentication, RESTful APIs.
+> Built with real-time WebSocket communication, JWT authentication, RESTful APIs.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✏️ **Collaborative Drawing**: Multiple users can draw on the same canvas simultaneously.
-- 🔗 **Canvas Sharing**: Share canvases with other registered users via email.
-- 🧠 **Real-time Sync**: Instant updates using **Socket.IO** with sub-second latency.
-- 🔐 **Authentication**: Secure login & signup with **JWT tokens**.
-- 🗃️ **Canvas Storage**: Persistent canvas state saved in **MongoDB**.
-- 📄 **RESTful APIs**: Robust endpoints for canvas CRUD operations.
+- **Collaborative Drawing**: Multiple users can draw on the same canvas simultaneously.
+- **Canvas Sharing**: Share canvases with other registered users via email.
+- **Real-time Sync**: Instant updates using **Socket.IO** with sub-second latency.
+- **Authentication**: Secure login & signup with **JWT tokens**.
+- **Canvas Storage**: Persistent canvas state saved in **MongoDB**.
+- **RESTful APIs**: Robust endpoints for canvas CRUD operations.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Login Page | Whiteboard Canvas | Profile Dashboard |
 |-------------|-------------------|-------------------|
@@ -26,23 +26,23 @@ A real-time, collaborative whiteboard application that enables multiple users to
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-### 💻 Frontend
+###  Frontend
 - **React.js**
 - **TailwindCSS**
 - **ShadCN/UI**
 - **React Router DOM**
 - **Socket.IO Client**
 
-### 🔧 Backend
+###  Backend
 - **Node.js** + **Express.js**
 - **MongoDB** + **Mongoose**
 - **Socket.IO**
 - **JWT Authentication**
 
 
-## 📦 Folder Structure
+## Folder Structure
 
 ```
 white-board/
@@ -57,19 +57,19 @@ white-board/
 │   └── socket.js     # WebSocket server logic
 ```
 
-## 🧠 Project Highlights 
+##  Project Highlights 
 
-✅ Developed a **real-time collaborative whiteboard** with React and Node.js, enabling multiple users to draw concurrently.
+- Developed a **real-time collaborative whiteboard** with React and Node.js, enabling multiple users to draw concurrently.
 
-✅ Built secure **JWT-based authentication** and **MongoDB** persistence layer to manage user sessions and canvas data.
+- Built secure **JWT-based authentication** and **MongoDB** persistence layer to manage user sessions and canvas data.
 
-✅ Integrated **Socket.IO** for real-time communication with <100ms latency across shared sessions.
+- Integrated **Socket.IO** for real-time communication with <100ms latency across shared sessions.
 
-✅ Designed and optimized **RESTful APIs** for canvas management, improving response time by 30% with MongoDB indexing and lean querying.
+- Designed and optimized **RESTful APIs** for canvas management, improving response time by 30% with MongoDB indexing and lean querying.
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - Inspired by popular whiteboarding tools like **Excalidraw** and **Miro**
 - Special thanks to open-source contributors and Socket.IO docs.
